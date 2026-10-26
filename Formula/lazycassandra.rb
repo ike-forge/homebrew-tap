@@ -1,25 +1,25 @@
 class Lazycassandra < Formula
   desc "A terminal UI for Apache Cassandra"
   homepage "https://github.com/ike-forge/lazycassandra"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.1/lc-app-aarch64-apple-darwin.tar.xz"
-      sha256 "54077992e5db564a30bd17cb8d6283811fb821043b30be2424da180c67448bbe"
+      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.2/lc-app-aarch64-apple-darwin.tar.xz"
+      sha256 "442fc4d7780e095f04f9874d28210f59555e0948474ef14496b5fddc5f178664"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.1/lc-app-x86_64-apple-darwin.tar.xz"
-      sha256 "b40480fba6e2eb014c08da2e2e069510a33bb91cb1ac6ca9e0a9431a7fe711d8"
+      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.2/lc-app-x86_64-apple-darwin.tar.xz"
+      sha256 "26f9bc1ba90934082b03743e67863fcf4451a917bd8ab656f9d402ff7c484038"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.1/lc-app-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f2395829083a3fd9ad6c7bc4942c645b3ca9e59e92b7165c28529f196785a81d"
+      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.2/lc-app-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5263cbe6ec1d226b29fbaec0c635730362804f30a071badb306b23bf0765a31a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.1/lc-app-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "03ca4595c58ba0dad73df37a27bc18b67a6a5e6b1b7e3f43821ed51a9eab77dd"
+      url "https://github.com/ike-forge/lazycassandra/releases/download/v0.2.2/lc-app-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "86f65b1368c904b77c1d205f8c7d3acaceb046ae28ef14d62f07ee6a09b17388"
     end
   end
   license "0BSD"
