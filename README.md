@@ -2,6 +2,7 @@
 
 ```sh
 brew install ike-forge/tap/lazycassandra
+brew install ike-forge/tap/lazypg
 brew install ike-forge/tap/wingmux
 ```
 
