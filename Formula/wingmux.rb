@@ -1,25 +1,25 @@
 class Wingmux < Formula
   desc "Tmux-native control centre for supervising coding agents across repositories and worktrees"
   homepage "https://github.com/ike-forge/wingmux"
-  version "0.2.5"
+  version "0.2.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.5/wingmux-aarch64-apple-darwin.tar.xz"
-      sha256 "cc613b6080a26f9d3401ed90de728039882e41e74c2f5883275c193aeee0e8ee"
+      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.6/wingmux-aarch64-apple-darwin.tar.xz"
+      sha256 "09c8d7cee20eb442ce607dd371a1dc969af85c19e084d95ee10f7915e4c58b96"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.5/wingmux-x86_64-apple-darwin.tar.xz"
-      sha256 "e7c6d7e70e4c43d55c484fbbada6cccead6b47177ff4f7c3031158d6f4914805"
+      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.6/wingmux-x86_64-apple-darwin.tar.xz"
+      sha256 "128b0ad6107e01b69c7c4bc46d902970a1afb91318dfce592f6450bf5679f253"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.5/wingmux-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "412042649e96595bd7941ce9365460baa8b3a1de03fb1ade570300e1b73daefb"
+      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.6/wingmux-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1869a9dd7596044030a9b6e327ece64358a5efeebbafa89abb8d75dbd07cf913"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.5/wingmux-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4ea0fd69574d1ae91991cbb74dafd4c6e63bbd2ba540f2c7602a7f15d8992a49"
+      url "https://github.com/ike-forge/wingmux/releases/download/v0.2.6/wingmux-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9ece49a78b67a474d818011a99e33d6362df5171e6f6c549fb456160aa2e3913"
     end
   end
   license "0BSD"
