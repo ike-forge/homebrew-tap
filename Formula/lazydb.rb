@@ -1,25 +1,25 @@
 class Lazydb < Formula
   desc "A terminal UI for PostgreSQL and Cassandra"
   homepage "https://github.com/ike-forge/lazydb"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/lazydb/releases/download/v0.1.0/ld-app-aarch64-apple-darwin.tar.xz"
-      sha256 "8d670e638d0cd52b8ce119613b2ef6ccb1f06d5990af7ba5d567bc9088bdf146"
+      url "https://github.com/ike-forge/lazydb/releases/download/v0.2.0/ld-app-aarch64-apple-darwin.tar.xz"
+      sha256 "cd104f5892078fd27afc38fd83b7f4da3a96fc249ab31e6edb931b32b2693e41"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/lazydb/releases/download/v0.1.0/ld-app-x86_64-apple-darwin.tar.xz"
-      sha256 "ddfd39c24263982b6d8b05b7c8642cf1faeabc311c951196b79b8d2e2a06d15d"
+      url "https://github.com/ike-forge/lazydb/releases/download/v0.2.0/ld-app-x86_64-apple-darwin.tar.xz"
+      sha256 "88c3d197f5a87deec2e7c80d3ef4c3632a6a70a7f926cfe06ca4e29eb99fbe2c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/lazydb/releases/download/v0.1.0/ld-app-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b29210f7fc86325cecc3a09a8f21171ba71d7ecdbf65501dd02146dea2fd6a95"
+      url "https://github.com/ike-forge/lazydb/releases/download/v0.2.0/ld-app-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8c78a08859018c4062f2a4be3a0ad1dee9fab77655c107c2c1aa7c923e38e06e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/lazydb/releases/download/v0.1.0/ld-app-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f3c12481d0390645ea774ec8592e34e92e7364309e12ced88d3705da8f2f6068"
+      url "https://github.com/ike-forge/lazydb/releases/download/v0.2.0/ld-app-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a29e05b74c8ba61c294a82c1747884b85fcf1cac01a972ee227a0fea9c411efe"
     end
   end
   license "0BSD"
