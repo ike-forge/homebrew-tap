@@ -1,25 +1,25 @@
 class Vimify < Formula
   desc "One vim-style keymap and theme for your CLI and TUI tools"
   homepage "https://github.com/ike-forge/vimify"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/vimify/releases/download/v0.2.1/vimify-aarch64-apple-darwin.tar.xz"
-      sha256 "22eb80812a266ebb6b8847d52f152c5ec2162e8e3cc8684eefe5eb6be52f225f"
+      url "https://github.com/ike-forge/vimify/releases/download/v0.3.0/vimify-aarch64-apple-darwin.tar.xz"
+      sha256 "a3d713da437a60c2a9bd31b63d2b816f079961e069cc4e38eb533014a473c74f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/vimify/releases/download/v0.2.1/vimify-x86_64-apple-darwin.tar.xz"
-      sha256 "b867032e89a93fcb21ec13b47fa5927da422c5a7589c27bd4abef4c77a8223da"
+      url "https://github.com/ike-forge/vimify/releases/download/v0.3.0/vimify-x86_64-apple-darwin.tar.xz"
+      sha256 "63a0f72e75ad9dd934232c7fc031bd7aeeb618a5f011930d1dd15936f7cad1a0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ike-forge/vimify/releases/download/v0.2.1/vimify-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "443704602e1785ce299ba17191249bb580cf48a33df5c82fd0b79e9da8e14f5a"
+      url "https://github.com/ike-forge/vimify/releases/download/v0.3.0/vimify-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "10bbcb3e6dd7ceb864ff4fa1928cfe995d71e11eb1aad4634656ec217650110e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ike-forge/vimify/releases/download/v0.2.1/vimify-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ba38dec99c9fbcdb70cc9e9b5ac64c0ccf713e9544562956b479312fb51acf90"
+      url "https://github.com/ike-forge/vimify/releases/download/v0.3.0/vimify-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5d13958c6aa296f1fe70c60e33eae61a951b3aedf16bf0f4521ba3c1abf4339e"
     end
   end
 
